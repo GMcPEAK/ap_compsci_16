@@ -8,7 +8,7 @@ import java.io.*;
  * 
  * 
  * @author Grady McPeak 
- * @version One
+ * @version Two
  */
 public class MergeSort
 {
