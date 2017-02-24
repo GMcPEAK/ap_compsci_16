@@ -94,12 +94,12 @@ public class Matrix {
     }
     
     /**
-     * Multiplies a matrix by an integer input.
+     * Multiplies a matrix by a numerical input.
      * @param a - the matrix to be multiplied 
      * @param b - the integer to multiply the matrix by
      * @return c - the product of a and b
      */
-    public static Matrix mult (Matrix a, int b) throws MatrixException {
+    public static Matrix mult (Matrix a, double b) throws MatrixException {
         if (a == null) {
             throw new MatrixException ("Your matrix is equal to null!");
         } else {
