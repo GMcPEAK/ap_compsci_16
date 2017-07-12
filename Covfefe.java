@@ -43,5 +43,6 @@ import java.awt.Color;
 	public void colors () {
 		setAllColors (Color.black);
 		setScanColor (Color.red);
+		setBulletColor (Color.white);
 	}
  }
